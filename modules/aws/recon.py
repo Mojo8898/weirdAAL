@@ -173,7 +173,7 @@ def module_recon_all():
     brute_neptune_permissions()
     brute_networkmanager_permissions() #9/3/20 only us-west-2 endpoint
     brute_opsworks_permissions()
-    brute_opsworkscm_permissions()
+    # brute_opsworkscm_permissions() - deprecated
     brute_organizations_permissions()
     brute_outposts_permissions()
     brute_personalize_permissions()
