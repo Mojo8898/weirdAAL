@@ -25,7 +25,7 @@ def module_recon_all():
     brute_accessanalyzer_permissions()
     brute_acm_permissions()
     brute_acm_pca_permissions()
-    brute_alexaforbusiness_permissions()
+    # brute_alexaforbusiness_permissions() - depreciated
     brute_amplify_permissions()
     brute_apigateway_permissions()
     #  apigatewaymanagementapi no functions
