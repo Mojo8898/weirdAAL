@@ -25,7 +25,7 @@ def module_recon_all():
     brute_accessanalyzer_permissions()
     brute_acm_permissions()
     brute_acm_pca_permissions()
-    # brute_alexaforbusiness_permissions() - depreciated
+    # brute_alexaforbusiness_permissions() - deprecated
     brute_amplify_permissions()
     brute_apigateway_permissions()
     #  apigatewaymanagementapi no functions
@@ -48,7 +48,7 @@ def module_recon_all():
     brute_clouddirectory_permissions()
     brute_cloudformation_permissions()
     brute_cloudfront_permissions()
-    brute_cloudhsm_permissions()
+    # brute_cloudhsm_permissions() - deprecated
     brute_cloudhsmv2_permissions()
     brute_cloudsearch_permissions()
     # brute_cloudsearchdomain_permissions() requires a valid cloudsearch domain
