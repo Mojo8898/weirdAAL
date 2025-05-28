@@ -94,7 +94,7 @@ def module_recon_all():
     brute_ecs_permissions()
     brute_efs_permissions()
     brute_eks_permissions()
-    brute_elasticinference_permissions()
+    # brute_elasticinference_permissions() - deprecated
     brute_elasticache_permissions()
     brute_elasticbeanstalk_permissions()
     brute_elastictranscoder_permissions()
@@ -124,8 +124,8 @@ def module_recon_all():
     brute_iot_permissions()
     #  iot-data no functions
     #  iot-jobs-data no functions
-    brute_iot1clickdevices_permissions()
-    brute_iot1clickprojects_permissions()
+    # brute_iot1clickdevices_permissions() - deprecated
+    # brute_iot1clickprojects_permissions() - deprecated
     brute_iotanalytics_permissions()
     brute_iotevents_permissions()
     #  iotevents-data no functions
@@ -150,7 +150,7 @@ def module_recon_all():
     brute_lightsail_permissions()
     brute_cloudwatchlogs_permissions()
     brute_machinelearning_permissions()
-    brute_macie_permissions()
+    # brute_macie_permissions() - deprecated
     brute_macie2_permissions()
     brute_managedblockchain_permissions()
     #  marketplace-catalog needs an default entity type
@@ -167,7 +167,7 @@ def module_recon_all():
     #  MarketplaceMetering no functions
     brute_mgh_permissions()
     brute_migrationhubconfig_permissions()
-    brute_mobile_permissions()
+    # brute_mobile_permissions() - deprecated
     brute_mq_permissions()
     brute_mturk_permissions()
     brute_neptune_permissions()
@@ -217,7 +217,7 @@ def module_recon_all():
     brute_sesv2_permissions()
     brute_shield_permissions()
     brute_signer_permissions()
-    brute_sms_permissions()
+    # brute_sms_permissions() - deprecated
     #  sms-voice Deprecated use pinpoint-sms-voice
     brute_snowball_permissions()
     brute_sns_permissions()
@@ -239,7 +239,7 @@ def module_recon_all():
     brute_waf_regional_permissions()
     brute_wafv2_permissions()
     brute_workdocs_permissions()
-    brute_worklink_permissions()
+    # brute_worklink_permissions() - deprecated
     brute_workmail_permissions()
     #  workmailmessageflow no functions
     brute_workspaces_permissions()
