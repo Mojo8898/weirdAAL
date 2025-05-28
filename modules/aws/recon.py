@@ -60,7 +60,7 @@ def module_recon_all():
     brute_codegurureviewer_permissions()
     brute_codeguruprofiler_permissions()
     brute_codepipeline_permissions()
-    brute_codestar_permissions()
+    # brute_codestar_permissions() - deprecated
     brute_codestarconnections_permissions()
     brute_codestarnotifications_permissions()
     brute_cognitoidentity_permissions()
