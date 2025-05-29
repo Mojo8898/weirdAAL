@@ -15,13 +15,8 @@ from modules import *
 import sys
 import builtins
 import re
-#from tabulate import tabulate
+from tabulate import tabulate
 import textwrap
-import collections
-from collections.abc import Iterable
-from collections import namedtuple
-
-collections.Callable = collections.abc.Callable
 
 # Let a user set .aws/credentials or another file as the credentials source
 # If user-defined, must be an absolute path
